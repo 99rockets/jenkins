@@ -1,7 +1,5 @@
 FROM jenkins:2.32.2
 
-MAINTAINER CSI
-
 USER root
 RUN mkdir /var/log/jenkins
 RUN chown -R jenkins:jenkins /var/log/jenkins
